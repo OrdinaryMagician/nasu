@@ -25,7 +25,7 @@ clean:
 	rm -f nasu
 	rm -f *.o
 install:
-	mkdir /usr/share/games/nasu
+	mkdir -p /usr/share/games/nasu
 	mv nasu /usr/bin/nasu
 	cp gamedata/* /usr/share/games/nasu
 uninstall:
